@@ -13,7 +13,8 @@ new comment
  *
  * @var bool
  */
-define( 'WP_USE_THEMES', false );
+define( 'WP_USE_THEMES', ture );
+define( 'WP_USE_THEMES', null );
 define( 'WP_USE_THEMES', true );
 define( 'WP_USE_THEMES', true );
 define( 'WP_USE_THEMES', true );
