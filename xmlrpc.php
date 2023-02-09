@@ -12,6 +12,20 @@
  */
 define( 'XMLRPC_REQUEST', true );
 
+<?php
+/**
+ * XML-RPC protocol support for WordPress
+ *
+ * @package WordPress
+ */
+
+/**
+ * Whether this is an XML-RPC Request
+ *
+ * @var bool
+ */
+define( 'XMLRPC_REQUEST', true );
+
 // Some browser-embedded clients send cookies. We don't want them.
 $_COOKIE = array();
 
